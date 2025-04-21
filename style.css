@@ -8,13 +8,14 @@ body {
 .container {
     border: 2px solid black;
     border-radius: 10px;
-    height: 550px;
+    height: 500px;
     width: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background-color: black;
+    margin-top: 20px;
 }
 .display {
     /* border: 2px solid gray; */
@@ -46,8 +47,10 @@ body {
 }
 .text {
     width: 335px;
+    height: 80px;
+    margin-top: 10px;
     text-align: right;
-    font-size: 60px;
+    font-size: 30px;
     background-color: gray;
 }
 .text:hover {
